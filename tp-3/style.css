@@ -1,0 +1,27 @@
+#contenedor h1{
+    text-align: center;
+}
+
+body p{
+    font-family: serif;
+}
+
+body #primer-parrafo {
+    background-color: #cee;
+}
+
+p.importante#primer-parrafo em{
+    color: #933;
+}
+
+html p.novelas a {
+    outline: 1px solid #333
+}
+
+html body p.fuente.parrafo{
+    opacity: 100%;
+}
+
+p:not([id]){
+    text-shadow: none;
+}
